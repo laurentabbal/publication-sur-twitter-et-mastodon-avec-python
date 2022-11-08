@@ -36,9 +36,11 @@ pip install mastodon.py
 * cliquer sur "Save" puis sur "Yes" puis sur "Done" (inutile de sauvegarder les données car elles ne serviront pas) et enfin sur "Yes, I saved it" (même si vous ne l'avez pas fait)
 * cliquer sur l'onglet "Keys and token"
 * pour "API Key and Secret", cliquer sur "Regenerate"
-* sauvegarder les clés car elles ne seront plus accessibles ensuite (dans `pytwidon.py`, `api_key` sera votre "API Key" et `api_key_secret` sera votre "API Key Secret")
+* sauvegarder les clés car elles ne seront plus accessibles ensuite
+* dans `pytwidon.py`, `api_key` sera votre "API Key" et `api_key_secret` sera votre "API Key Secret"
 * pour "Access Token and Secret", cliquer sur "Generate"
-* sauvegarder les clés car elles ne seront plus accessibles ensuite (dans `pytwidon.py`, `access_token` sera votre "Access Token" et `access_token_secret` sera votre "Access Token Secret")
+* sauvegarder les clés car elles ne seront plus accessibles ensuite
+* dans `pytwidon.py`, `access_token` sera votre "Access Token" et `access_token_secret` sera votre "Access Token Secret"
 * Voilà pour Twitter!
 
 
