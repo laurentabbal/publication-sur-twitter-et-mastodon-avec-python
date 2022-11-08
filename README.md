@@ -48,7 +48,6 @@ pip install mastodon.py
 
 Dans code ci-dessous:
 * pour `mastodon_url`, indiquer l'addresse de votre instance Mastodon.
-* remplacer "pytooterapp" par un nom de votre choix
 * remplacer "your_mastodon_email" par l'adresse courriel utilisée pour se connecter à Mastodon
 * remplacer "your_mastodon_password" par votre mot de passe Mastodon
 
@@ -60,7 +59,7 @@ Dans `pytwidon.py`, coller le contenu de `pytooter_usercred.secret` dans `mastod
 from mastodon import Mastodon
 mastodon_url = 'https://mastodon.social'
 Mastodon.create_app(
-     'pytooterapp',
+     'pytwidonapp',
      api_base_url = mastodon_url,
      to_file = 'pytooter_clientcred.secret'
 )
