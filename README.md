@@ -31,6 +31,36 @@ EN COURS DE REDACTION
 
 
 ### 2. MASTODON
+#### a. Enregistrement de l'application (à ne faire qu'une fois)
+
+Dans code ci-dessous:
+* pour `api_base_url`, indiquer votre instance Mastodon.
+* remplacer "pytooterapp" par un nom de votre choix
+* remplacer "your_mastodon_email" par l'adresse courriel utilisée pour se connecter à Mastodon
+* remplacer "your_mastodon_password" par votre mot de passe Mastodon
+
+Exécuter le code et copier le contenu de `pytooter_usercred.secret`.
+
+Dans `pytwidon.py`, coller le contenu de `pytooter_usercred.secret` dans `mastodon_token` et compléter `mastodon_url` en indiquand l'adresse de votre instance Mastodon.
+
+```python
+from mastodon import Mastodon
+mastodon_url = 'https://mastodon.social'
+Mastodon.create_app(
+     'pytooterapp',
+     api_base_url = mastodon_url,
+     to_file = 'pytooter_clientcred.secret'
+)
+mastodon = Mastodon(
+    client_id = 'pytooter_clientcred.secret',
+    api_base_url = mastodon_url
+)
+mastodon.log_in(
+    'your_mastodon_email',
+    'your_mastodon_password',
+    to_file = 'pytooter_usercred.secret'
+)
+```
 
 
 
