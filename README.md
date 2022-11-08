@@ -8,7 +8,9 @@ Pour pouvoir utiliser `pytwidon.py`, il faut tout d'abord créer les clés Twitt
 
 EN COURS DE REDACTION
 
-### CLÉS TWITTER
+## A. CLÉS
+
+### 1. TWITTER
 * se connecter à son compte Twitter
 * ouvrir : https://developer.twitter.com/en/portal/petition/essential/basic-info
 * remplir le formulaire et valider
@@ -28,5 +30,20 @@ EN COURS DE REDACTION
 * Voilà pour Twitter!
 
 
-### CLÉS MASTODON
+### 2. MASTODON
 
+
+
+## B. INSTALLATION DES BIBLIOTHÈQUES CLÉS TWEEPY
+
+### 1. BIBLIOTHÈQUE TWEEPY
+Exécuter:
+```
+pip install tweepy --upgrade
+```
+
+### 2. BIBLIOTHÈQUE MASTODON.PY
+Exécuter:
+```
+pip install mastodon.py
+```
