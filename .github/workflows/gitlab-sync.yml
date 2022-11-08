@@ -14,6 +14,6 @@ jobs:
         fetch-depth: 0
     - uses: wangchucheng/git-repo-sync@v0.1.0
       with:
-        target-url: https://forge.aeif.fr/code-puzzle/www-codepuzzle-io
+        target-url: https://forge.aeif.fr/laurentabbal/import-et-synchro-github-gitlab
         target-username: laurentabbal
         target-token: ${{ secrets.GITLAB_TOKEN }}
