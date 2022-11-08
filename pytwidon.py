@@ -1,21 +1,22 @@
 #== CONNEXION TWITTER ==========================================================
 import tweepy
+
 bearer_token = ""
 api_key = ""
 api_key_secret = ""
 access_token = ""
 access_token_secret = ""
 
-twitterv1 = tweepy.API(tweepy.OAuth1UserHandler(consumer_key, consumer_secret, access_token, access_token_secret))
-twitterv2 = tweepy.Client(bearer_token, consumer_key, consumer_secret, access_token, access_token_secret)
+twitterv1 = tweepy.API(tweepy.OAuth1UserHandler(api_key, api_key_secret, access_token, access_token_secret))
+twitterv2 = tweepy.Client(bearer_token, api_key, api_key_secret, access_token, access_token_secret)
 #===============================================================================
 #== CONNEXION MASTODON =========================================================
 from mastodon import Mastodon
 
-mastodon = Mastodon(
-    access_token = "",
-    api_base_url = ""
-)
+mastodon_token = ""
+mastodon_url = ""
+
+mastodon = Mastodon(access_token = mastodon_token, api_base_url = mastodon_url)
 #===============================================================================
 
 text  = "Test #Python pour publier simultanément sur #Twitter et #Mastodon (texte + image). Avantage: plus besoin de passer par http://crossposter.masto.donte.com.br (ou équivalent) et donc plus besoin de partager des paramètres de connexion avec des sites tiers."
