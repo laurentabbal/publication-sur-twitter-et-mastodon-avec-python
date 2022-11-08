@@ -4,7 +4,7 @@
 
 Code : https://github.com/laurentabbal/publication-sur-twitter-et-mastodon-avec-python/blob/main/pytwidon.py
 
-Pour pouvoir utiliser `pytwidon.py`, il faut tout d'abord installer les bibliothèques et créer les clés Twitter et Mastodon. C'est un peu long mais c'est à faire qu'une fois.
+Pour pouvoir utiliser `pytwidon.py`, il faut tout d'abord installer les bibliothèques `tweepy` et `mastodon.py`. Il faut aussi créer les clés Twitter et Mastodon (c'est un peu long mais c'est à faire qu'une fois).
 
 ## A. INSTALLATION DES BIBLIOTHÈQUES
 
