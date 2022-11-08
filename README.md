@@ -1,4 +1,4 @@
-# Publication sur Twitter et Mastodon avec Python
+# PUBLIER sur TWITTER et MASTODON avec PYTHON
 
 `pytwidon.py` permet de publier simultanément sur Twitter et Mastodon du texte et des images. Avantage: plus besoin de passer par http://crossposter.masto.donte.com.br (ou équivalent) et donc plus besoin de partager des paramètres de connexion avec des sites tiers.
 
