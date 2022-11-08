@@ -29,7 +29,7 @@ pip install mastodon.py
 * cocher "Accept Terms & Conditions" puis cliquer sur "Submit"
 * suivre la procédure pour vérifier l'adresse courriel
 * donner un nom à l'application et cliquer sur "Get keys"
-* inutile de sauvegarder les clés (il faudra les régénérer plus tard), cliquer directement sur "Dashboard" puis sur "Yes, I saved them" (même si vous ne l'avez pas fait)
+* inutile de sauvegarder les clés (il faudra les générer à nouveau plus tard), cliquer directement sur "Dashboard" puis sur "Yes, I saved them" (même si vous ne l'avez pas fait)
 * cliquer sur l'icone "App settings" de l'application
 * dans la rubrique "User authentication settings", cliquer sur "Set up"
 * sélectionner "Read and write" dans "App permissions", "WebApp, Automated App or Bot" dans "Type of App" puis, dans "App info", saisir l'adresse d'un site pour "Callback URI / Redirect URL" et "Website URL" (vous pouvez mettre n'importe quel site, même un site qui n'existe pas) 
