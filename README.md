@@ -2,7 +2,7 @@
 
 `pytwidon.py` permet de publier simultanément sur Twitter et Mastodon du texte et des images. Avantage: plus besoin de passer par http://crossposter.masto.donte.com.br (ou équivalent) et donc plus besoin de partager des paramètres de connexion avec des sites tiers.
 
-Code : https://github.com/laurentabbal/publication-sur-twitter-et-mastodon-avec-python/blob/main/pytwidon.py
+Code : `pytwidon.py`
 
 Pour pouvoir utiliser `pytwidon.py`, il faut tout d'abord installer les bibliothèques `tweepy` et `mastodon.py`. Il faut aussi créer les clés Twitter et Mastodon (c'est un peu long mais c'est à faire qu'une fois).
 
