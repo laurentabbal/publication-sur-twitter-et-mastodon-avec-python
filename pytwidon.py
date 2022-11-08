@@ -1,15 +1,15 @@
 #== CONNEXION TWITTER ==========================================================
 import tweepy
 
-bearer_token = ""
 api_key = ""
 api_key_secret = ""
 access_token = ""
 access_token_secret = ""
 
 twitterv1 = tweepy.API(tweepy.OAuth1UserHandler(api_key, api_key_secret, access_token, access_token_secret))
-twitterv2 = tweepy.Client(bearer_token, api_key, api_key_secret, access_token, access_token_secret)
+twitterv2 = tweepy.Client(consumer_key=api_key, consumer_secret=api_key_secret, access_token=access_token, access_token_secret=access_token_secret)
 #===============================================================================
+
 #== CONNEXION MASTODON =========================================================
 from mastodon import Mastodon
 
