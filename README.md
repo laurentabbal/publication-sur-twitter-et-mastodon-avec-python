@@ -5,6 +5,8 @@ Documentation en cours de rédaction.
 
 Code : https://github.com/laurentabbal/publication-sur-twitter-et-mastodon-avec-python/blob/main/pytwidon.py
 
+Pour pouvoir utiliser ce code, il faut tout d'abord créer les clés Twitter et Mastodon.
+
 ## CLÉS TWITTER
 
 
