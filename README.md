@@ -4,7 +4,7 @@
 
 Code : https://github.com/laurentabbal/publication-sur-twitter-et-mastodon-avec-python/blob/main/pytwidon.py
 
-Pour pouvoir utiliser `pytwidon.py`, il faut tout d'abord créer les clés Twitter et Mastodon. A ne faire qu'une fois.
+Pour pouvoir utiliser `pytwidon.py`, il faut tout d'abord créer les clés Twitter et Mastodon. C'est un peu long mais c'est à faire qu'une fois.
 
 EN COURS DE REDACTION
 
