@@ -22,7 +22,7 @@ pip install mastodon.py
 
 ## B. CLÉS
 
-### 1. TWITTER
+### 1. TWITTER (à ne faire qu'une fois)
 * se connecter à son compte Twitter
 * ouvrir : https://developer.twitter.com/en/portal/petition/essential/basic-info
 * remplir le formulaire et valider
@@ -42,8 +42,7 @@ pip install mastodon.py
 * Voilà pour Twitter!
 
 
-### 2. MASTODON
-#### a. Enregistrement de l'application (à ne faire qu'une fois)
+### 2. MASTODON (à ne faire qu'une fois)
 
 Dans code ci-dessous:
 * pour `mastodon_url`, indiquer l'addresse de votre instance Mastodon.
