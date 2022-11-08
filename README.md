@@ -4,11 +4,23 @@
 
 Code : https://github.com/laurentabbal/publication-sur-twitter-et-mastodon-avec-python/blob/main/pytwidon.py
 
-Pour pouvoir utiliser `pytwidon.py`, il faut tout d'abord créer les clés Twitter et Mastodon. C'est un peu long mais c'est à faire qu'une fois.
+Pour pouvoir utiliser `pytwidon.py`, il faut tout d'abord installer les bibliothèques et créer les clés Twitter et Mastodon. C'est un peu long mais c'est à faire qu'une fois.
 
-EN COURS DE REDACTION
+## A. INSTALLATION DES BIBLIOTHÈQUES
 
-## A. CLÉS
+### 1. BIBLIOTHÈQUE TWEEPY
+Exécuter:
+```
+pip install tweepy --upgrade
+```
+
+### 2. BIBLIOTHÈQUE MASTODON.PY
+Exécuter:
+```
+pip install mastodon.py
+```
+
+## B. CLÉS
 
 ### 1. TWITTER
 * se connecter à son compte Twitter
@@ -24,9 +36,9 @@ EN COURS DE REDACTION
 * cliquer sur "Save" puis sur "Yes" puis sur "Done" (inutile de sauvegarder les données car elles ne serviront pas) et enfin sur "Yes, I saved it" (même si vous ne l'avez pas fait)
 * cliquer sur l'onglet "Keys and token"
 * pour "API Key and Secret", cliquer sur "Regenerate"
-* sauvegarder les clés car elles ne seront plus accessibles ensuite ("API Key" sera votre `api_key` et "API Key Secret" sera votre `api_key_secret`)
+* sauvegarder les clés car elles ne seront plus accessibles ensuite (dans `pytwidon.py`, `api_key` sera votre "API Key" et `api_key_secret` sera votre "API Key Secret")
 * pour "Access Token and Secret", cliquer sur "Generate"
-* sauvegarder les clés car elles ne seront plus accessibles ensuite ("Access Token" sera votre `access_token` et "Access Token Secret" sera votre `access_token_secret`)
+* sauvegarder les clés car elles ne seront plus accessibles ensuite (dans `pytwidon.py`, `access_token` sera votre "Access Token" et `access_token_secret` sera votre "Access Token Secret")
 * Voilà pour Twitter!
 
 
@@ -34,7 +46,7 @@ EN COURS DE REDACTION
 #### a. Enregistrement de l'application (à ne faire qu'une fois)
 
 Dans code ci-dessous:
-* pour `api_base_url`, indiquer votre instance Mastodon.
+* pour `mastodon_url`, indiquer l'addresse de votre instance Mastodon.
 * remplacer "pytooterapp" par un nom de votre choix
 * remplacer "your_mastodon_email" par l'adresse courriel utilisée pour se connecter à Mastodon
 * remplacer "your_mastodon_password" par votre mot de passe Mastodon
@@ -60,20 +72,4 @@ mastodon.log_in(
     'your_mastodon_password',
     to_file = 'pytooter_usercred.secret'
 )
-```
-
-
-
-## B. INSTALLATION DES BIBLIOTHÈQUES
-
-### 1. BIBLIOTHÈQUE TWEEPY
-Exécuter:
-```
-pip install tweepy --upgrade
-```
-
-### 2. BIBLIOTHÈQUE MASTODON.PY
-Exécuter:
-```
-pip install mastodon.py
 ```
