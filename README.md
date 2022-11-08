@@ -5,5 +5,10 @@ Documentation en cours de rédaction.
 
 Code : https://github.com/laurentabbal/publication-sur-twitter-et-mastodon-avec-python/blob/main/pytwidon.py
 
-En cours de rédaction
+## CLÉS TWITTER
+
+
+
+
+## CLÉS MASTODON
 
